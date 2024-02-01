@@ -1,6 +1,5 @@
 package cn.meowrain.interceptors;
 
-import cn.meowrain.pojo.Result;
 import cn.meowrain.utils.JwtUtil;
 import cn.meowrain.utils.ThreadLocalUtil;
 import jakarta.servlet.http.HttpServletRequest;

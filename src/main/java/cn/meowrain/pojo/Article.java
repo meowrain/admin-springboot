@@ -1,13 +1,16 @@
 package cn.meowrain.pojo;
 
 
+import jakarta.validation.constraints.NotEmpty;
 import lombok.Data;
 
 import java.time.LocalDateTime;
 @Data
 public class Article {
     private Integer id;//主键ID
+    @NotEmpty
     private String title;//文章标题
+    @NotEmpty
     private String content;//文章内容
     private String coverImg;//封面图像
     private String state;//发布状态 已发布|草稿
